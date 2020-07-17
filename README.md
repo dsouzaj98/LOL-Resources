@@ -1,4 +1,4 @@
-# Capstone-1
+# League of Legends Win Likelihood
  
 In my capstone, I will be using a League of Legends database from kaggle.com describing top players' game statistics for over 10k games.  This dataset can be found at https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min.  Using this data, I will be performing a variety of statistical tests to determine which factors in game have the highest effect on win percentage.
 
