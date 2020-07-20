@@ -5,7 +5,7 @@ import seaborn as sns
 lol_data=pd.read_csv("data/high_diamond_ranked_10min.csv")
 
 
-fig, ax=plt.subplots(2,1, figsize=(10,10))
+fig, ax=plt.subplots(2,1, figsize=(10,12))
 
 KDA_df=pd.DataFrame()
 KDA_df["game number"]=np.arange(1,len(lol_data+1))
@@ -25,11 +25,12 @@ difference=KDA_df["difference"]
 
 ax[0].plot(games,bluerolling, color="blue")
 ax[0].plot(games, redrolling, color="red")
-ax[0].set(xlabel="number of games", ylabel="KDA", title="KDA graph")
+ax[0].set(xlabel="Number of Games", ylabel="KDA", title="Average KDA")
 ax[0].set_ylim(2.5,3.5)
 ax[0].set_yticks(np.arange(2.5, 3.5, 0.05))
 
 ax[1].plot(games, difference, color="magenta")
-plt.ylim(-.25,0.6)
-plt.yticks(np.arange(-.25,.6,0.05))
+ax[1].set_ylim(-.25,0.6)
+ax[1].set_yticks(np.arange(-.25,.6,0.05))
+ax[1].set(xlabel="Number of Games", ylabel="Difference in KDA", title="Difference in KDA")
 plt.show()
