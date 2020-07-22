@@ -8,4 +8,4 @@ All of the values in the dataset are numerical allowing me to insert my desired 
 
 My MVP would be to answer the question of "What resource advantage is most likely to help achieve a win?".  My MVP+ would be to establish confidence intervals for all of the categories and relate them to a calculated mean of winning the game to get a definitive number of what extent each resource affects win likelihood?
 
-![/images/Assists.png]
+![Test Image 1](/images/Assists.png)
