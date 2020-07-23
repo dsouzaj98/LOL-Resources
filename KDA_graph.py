@@ -2,7 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np 
 import seaborn as sns
-lol_data=pd.read_csv("data/high_diamond_ranked_10min.csv")
+from lol_data import lol_data
+
 
 
 fig, ax=plt.subplots(2,1, figsize=(10,12))
@@ -32,5 +33,7 @@ ax[0].set_yticks(np.arange(2.5, 3.5, 0.05))
 ax[1].plot(games, difference, color="magenta")
 ax[1].set_ylim(-.25,0.6)
 ax[1].set_yticks(np.arange(-.25,.6,0.05))
-ax[1].set(xlabel="Number of Games", ylabel="Difference in KDA", title="Difference in KDA")
+ax[1].set(xlabel="Number of Games", ylabel="Difference in KDA", title="Difference in KDA (Red - Blue)")
+ax[1].axhline(0, color="black")
+ax[1].fill_between(np.arange(0,9878), difference, 0, color="yellow")
 plt.show()
