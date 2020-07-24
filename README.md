@@ -4,13 +4,13 @@
 
 In my capstone, I will be using a League of Legends database from kaggle.com describing top players' game statistics for over 10k games.  This dataset can be found at https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min.  I would like to explore the data to find relationships between various statistics and if there are any inherent advantages for either team.
 
-Some of the factors I intend to examine include the team color(red vs blue) as the gameplay can vary depending on side, and advantages through resources gained in the first 10 minutes of the game.  It is expected that increased resources(gold, minions, objectives) would reeults in a higher chance of winning the game but my analysis would like to determine which have the greatest impact on the game.
+Some of the factors I intend to examine include the team color(red vs blue) as the gameplay can vary depending on side, and advantages through resources gained in the first 10 minutes of the game.  It is expected that increased resources(gold, minions, objectives) would result in a higher chance of winning the game but my analysis would like to determine which have the greatest impact on the game.
 
 
 
 
 ## First of all, What is League of Legends?
-League of Legends is one of the most popular games in the world with roughly 80 million monthly players around the world. In the game, two teams of five players work together to destroy the base of the enemy team.  Throughout the game, players will gain gold through various ways such as killing minions or defeating large objectives such as dragons and barons.  Gold allows players to buy items that make their champion even stronger.
+League of Legends is one of the most popular games in the world with roughly 80 million monthly players. In the game, two teams of five players work together to destroy the base of the enemy team.  Throughout the game, players will gain gold through various ways such as killing minions or defeating large objectives such as dragons and barons.  Gold allows players to buy items that make their champion even stronger.
 
 ## The factors I intend to examine are:
 1. Assists 
