@@ -36,6 +36,12 @@ League of Legends is one of the most popular games in the world with roughly 80 
 
 All of the values in the dataset are numerical allowing me to insert my desired columns into the ideal format(panda dataframe). 
 
+|    |      gameId |   blueWins |   blueWardsPlaced |   blueWardsDestroyed |   blueFirstBlood |   blueKills |   blueDeaths |   blueAssists |   blueEliteMonsters |   blueDragons |   blueHeralds |   blueTowersDestroyed |   blueTotalGold |   blueAvgLevel |   blueTotalExperience |   blueTotalMinionsKilled |   blueTotalJungleMinionsKilled |   blueGoldDiff |   blueExperienceDiff |   blueCSPerMin |   blueGoldPerMin |   redWardsPlaced |   redWardsDestroyed |   redFirstBlood |   redKills |   redDeaths |   redAssists |   redEliteMonsters |   redDragons |   redHeralds |   redTowersDestroyed |   redTotalGold |   redAvgLevel |   redTotalExperience |   redTotalMinionsKilled |   redTotalJungleMinionsKilled |   redGoldDiff |   redExperienceDiff |   redCSPerMin |   redGoldPerMin |
+|---:|------------:|-----------:|------------------:|---------------------:|-----------------:|------------:|-------------:|--------------:|--------------------:|--------------:|--------------:|----------------------:|----------------:|---------------:|----------------------:|-------------------------:|-------------------------------:|---------------:|---------------------:|---------------:|-----------------:|-----------------:|--------------------:|----------------:|-----------:|------------:|-------------:|-------------------:|-------------:|-------------:|---------------------:|---------------:|--------------:|---------------------:|------------------------:|------------------------------:|--------------:|--------------------:|--------------:|----------------:|
+|  0 | 4.51916e+09 |          0 |                28 |                    2 |                1 |           9 |            6 |            11 |                   0 |             0 |             0 |                     0 |           17210 |            6.6 |                 17039 |                      195 |                             36 |            643 |                   -8 |           19.5 |           1721   |               15 |                   6 |               0 |          6 |           9 |            8 |                  0 |            0 |            0 |                    0 |          16567 |           6.8 |                17047 |                     197 |                            55 |          -643 |                   8 |          19.7 |          1656.7 |
+|  1 | 4.52337e+09 |          0 |                12 |                    1 |                0 |           5 |            5 |             5 |                   0 |             0 |             0 |                     0 |           14712 |            6.6 |                 16265 |                      174 |                             43 |          -2908 |                -1173 |           17.4 |           1471.2 |               12 |                   1 |               1 |          5 |           5 |            2 |                  2 |            1 |            1 |                    1 |          17620 |           6.8 |                17438 |                     240 |                            52 |          2908 |                1173 |          24   |          1762   |
+
+
 
 ## Correlation
 The first image I would like to highlight is a correlation map of the various categories to get a sense of the data.
@@ -101,3 +107,6 @@ The interesting observation here is that although there is a discrepancy in whic
 League of Legends is a balanced game that does not offer a significant advantage to either team.  While there are some objectives that benefit one side over the other, the net result is equal.
 
 ![end](images/league_end.jpeg)
+
+
+
