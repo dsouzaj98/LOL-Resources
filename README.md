@@ -89,7 +89,7 @@ So far, it looks like both teams are evenly balanced.  To really determine this,
 | GoldPerMin               |  -0.6694 |    0.5032 |
 
 ![drag](images/Normal_Dragons.png)
-![herald](images/Normal_heralds.png)
+![herald](images/Normal_Heralds.png)
 ![totalg](images/Normal_TotalGold.png)
 
 As we can see, the red team obtains more dragons while the blue team obtains more heralds.  This is an expected result due to the layout of the map.
