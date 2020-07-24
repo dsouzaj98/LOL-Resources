@@ -1,4 +1,4 @@
-# League of Legends Win Likelihood
+# League of Legends Resource Examination
  
 ![League](images/League.jpg)
 
