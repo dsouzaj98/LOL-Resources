@@ -18,13 +18,13 @@ red_data=lol_data.drop(['gameId','blueWins', 'blueWardsPlaced', 'blueWardsDestro
        'blueTowersDestroyed', 'blueTotalGold', 'blueAvgLevel',
        'blueTotalExperience', 'blueTotalMinionsKilled',
        'blueTotalJungleMinionsKilled', 'blueGoldDiff', 'blueExperienceDiff',
-       'blueCSPerMin', 'blueGoldPerMin'], axis=1, inplace=True)
+       'blueCSPerMin', 'blueGoldPerMin'], axis=1)
 blue_data=lol_data.drop(['gameId','blueWins','redWardsPlaced', 'redWardsDestroyed', 'redFirstBlood', 'redKills',
        'redDeaths', 'redAssists', 'redEliteMonsters', 'redDragons',
        'redHeralds', 'redTowersDestroyed', 'redTotalGold', 'redAvgLevel',
        'redTotalExperience', 'redTotalMinionsKilled',
        'redTotalJungleMinionsKilled', 'redGoldDiff', 'redExperienceDiff',
-       'redCSPerMin', 'redGoldPerMin'], axis=1, inplace=True)
+       'redCSPerMin', 'redGoldPerMin'], axis=1)
 
 
 
@@ -39,6 +39,8 @@ new_names=[]
 for col in red_data.columns:
     new_names.append(col[3:])
 df=pd.DataFrame(list(zip(tstats, pvals)), index=new_names, columns=["T-stat", "P-value"])
+ttest=df.to_markdown()
+print(ttest)
 
 
 
